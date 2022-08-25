@@ -1,0 +1,5 @@
+.card-container {
+  margin: 5px;
+  cursor: pointer;
+  max-height: 250px;
+}
