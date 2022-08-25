@@ -24,8 +24,6 @@ export default class DealPricingRule extends PricingRule {
   }
 
   calculateDiscount(items: Item[]): number {
-
-    console.log(items, this.itemId)
     const item = items.find((item) => item.id === this.itemId)
 
     if (!item) {

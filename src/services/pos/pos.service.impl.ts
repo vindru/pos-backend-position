@@ -66,7 +66,6 @@ export default class PosServiceImpl extends APIServiceImpl implements PosService
 
   async addItemToCart(id: number, quantity: number): Promise<ServiceResponse<any>>{
     try {
-      console.log(id, quantity)
       const response = await this.post('addToCart', { params: { itemId: id, quantity: quantity } });
 
       return new ServiceResponse<any>(response.data);
