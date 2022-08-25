@@ -20,7 +20,7 @@ cd pos-backend-position/server
 
 npm install
 
-npm serve
+npm run start
 ```
 
 The backend server should start on port 5001.
@@ -32,7 +32,7 @@ cd pos-backend-position
 
 npm install
 
-npm start
+npm run start
 ```
 
 ## ScreenShot

@@ -6,7 +6,7 @@
   "module": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon server.ts"
+    "start": "nodemon server.ts"
   },
   "author": "vindru",
   "license": "ISC",
